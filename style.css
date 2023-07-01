@@ -1,0 +1,60 @@
+/*CSS Document*/
+
+@charset "utf-8";
+
+body{
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+table{
+    background-color: gray;
+    height:40%;
+    width: 25%;
+}
+
+td{
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(202, 200, 200);
+    position:relative;
+}
+
+
+#c_resultado{
+    font-size: 200%;
+    text-align: right;
+    vertical-align: bottom;
+    background-color: #fff;
+}
+#b_resultado{
+    background-color: rgb(85, 84, 151);
+}
+
+h2{
+    font-size: 90%;
+}
+
+footer{
+    font-size: smaller;
+    color:gray;
+    text-align: center;
+}
+
+#f_botao{
+    background-color:  rgb(85, 84, 151) ;
+    position:absolute;
+    height: 100%;
+    width:100%;
+    top:0;
+    left:0;
+}
+#f_botao:hover{
+    background-color:  rgb(104, 103, 152);
+
+}

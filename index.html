@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    
+    <header>
+    <h1>
+        CALCULATOR
+    </h1>
+    </header>
+
+    <main>
+
+<!--
+Há atributos obsoletos na tabela
+border - pode ser colocado border no css;
+bgcolor - pode ser colocado background no css;
+align - pode ser colocad text-align no css    
+-->
+
+        <table border="1" bordercolor="#000" align="center" cellspacing="6" cellpadding="15">
+            
+            <tr><td id="c_resultado"  colspan="6" height="80">0</td></tr>     
+        
+            <tr>
+                <td>%</td>
+                <td>CE</td>
+                <td>C</td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td>1/X</td>
+                <td>X<sup>2</sup></td>
+                <td><sup>2</sup>√x</td>
+                <td>/</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>*</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td><sup>+</sup>/-</td>
+                <td>0</td>
+                <td>,</td>
+                <td id="b_resultado"><input type="button" onclick="calcular_resultado()" value="=" id="f_botao"></td>
+            </tr>
+        </table>
+
+    </main>
+
+<footer>
+    2023@ Renata Veras
+</footer>
+
+<script src="script.js">    
+</script>
+    
+</body>
+</html>
